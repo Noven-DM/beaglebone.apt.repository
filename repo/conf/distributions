@@ -1,0 +1,21 @@
+Description: Noven-DM/beaglebone.apt.repository
+Codename: bionic
+Architectures: amd64 i386 armhf
+Components: main
+SignWith: 8C96457F867D7F76A7BB4A0B600444DBB0898AFA
+
+
+Description: Noven-DM/beaglebone.apt.repository
+Codename: trusty
+Architectures: amd64 i386 armhf
+Components: main
+SignWith: 8C96457F867D7F76A7BB4A0B600444DBB0898AFA
+
+
+Description: Noven-DM/beaglebone.apt.repository
+Codename: bullseye
+Architectures: amd64 i386 armhf
+Components: main
+SignWith: 8C96457F867D7F76A7BB4A0B600444DBB0898AFA
+
+
