@@ -1,14 +1,14 @@
 Package: chp-vibrationsensor
-Version: 1.0.16
+Version: 1.0.17
 Architecture: all
 Depends: python3
 Maintainer: Mauro Druwel <mauro.druwel@skyline.be>
 Priority: optional
 Section: base
-Filename: pool/main/c/chp-vibrationsensor/chp-vibrationsensor_1.0.16_all.deb
-Size: 8904
-SHA256: f904da45362841497f8eec9ce6a4d9854515bca4df1cbf305c601e4af06bc84c
-SHA1: 658f733b17b152485ef75ad17ad8aaab73b43052
-MD5sum: 901dbd925dd50ce2756f60b4b847455a
+Filename: pool/main/c/chp-vibrationsensor/chp-vibrationsensor_1.0.17_all.deb
+Size: 9004
+SHA256: 8911fcfca73e4e6599662c90f21d11d41f4e78a0a04b1f9fbbb31b318f5253d8
+SHA1: 935f99f1d7975b4a821277e7491fa7d1899b9f0d
+MD5sum: 0eb8c695a03e8f8672590a3646771d82
 Description: CHP Vibration Monitoring
 
