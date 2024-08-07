@@ -15,7 +15,7 @@ To add our repository to your APT sources and install packages, follow these ste
 Open a terminal and run the following commands:
 
 ```bash
-wget -qO- https://noven-dm.github.io/beaglebone.apt.repository/public.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/beaglebone-archive-keyring.gpg > /dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/beaglebone-archive-keyring.gpg] https://noven-dm.github.io/beaglebone.apt.repository/repo/ bullseye main" | sudo tee /etc/apt/sources.list.d/beaglebone.list
+wget -qO- https://noven-dm.github.io/beaglebone.apt.repository/public.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/beaglebone-archive-keyring.gpg > /dev/null && DISTRO_CODENAME=$(lsb_release -cs) && echo "deb [signed-by=/etc/apt/trusted.gpg.d/beaglebone-archive-keyring.gpg] https://noven-dm.github.io/beaglebone.apt.repository/repo/ $DISTRO_CODENAME main" | sudo tee /etc/apt/sources.list.d/beaglebone.list
 ```
 
 ### 2. Update Package Index
